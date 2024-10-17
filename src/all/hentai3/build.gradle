@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ext {
     extName = '3Hentai'
     extClass = '.Hentai3Factory'
@@ -6,3 +7,18 @@ ext {
 }
 
 apply from: "$rootDir/common.gradle"
+=======
+ext {
+<<<<<<<< Updated upstream:src/en/atsumaru/build.gradle
+    extName = 'Atsumaru'
+    extClass = '.Atsumaru'
+========
+    extName = '3Hentai'
+    extClass = '.Hentai3Factory'
+>>>>>>>> Stashed changes:src/all/hentai3/build.gradle
+    extVersionCode = 1
+    isNsfw = true
+}
+
+apply from: "$rootDir/common.gradle"
+>>>>>>> Stashed changes

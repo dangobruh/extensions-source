@@ -3,7 +3,11 @@
 
     <application>
         <activity
+<<<<<<<< Updated upstream:src/zh/komiic/AndroidManifest.xml
             android:name=".zh.komiic.UrlActivity"
+========
+            android:name=".en.koharu.KoharuUrlActivity"
+>>>>>>>> Stashed changes:src/en/koharu/AndroidManifest.xml
             android:excludeFromRecents="true"
             android:exported="true"
             android:theme="@android:style/Theme.NoDisplay">
@@ -14,8 +18,13 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
+<<<<<<<< Updated upstream:src/zh/komiic/AndroidManifest.xml
                     android:host="komiic.com"
                     android:pathPattern="/comic/..*"
+========
+                    android:host="koharu.to"
+                    android:pathPattern="/g/..*/..*"
+>>>>>>>> Stashed changes:src/en/koharu/AndroidManifest.xml
                     android:scheme="https" />
             </intent-filter>
         </activity>

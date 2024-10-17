@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ext {
     extName = 'MangaHen'
     extClass = '.MangaHen'
@@ -6,3 +7,13 @@ ext {
 }
 
 apply from: "$rootDir/common.gradle"
+=======
+ext {
+    extName = 'MangaHen'
+    extClass = '.MangaHen'
+    extVersionCode = 2
+    isNsfw = true
+}
+
+apply from: "$rootDir/common.gradle"
+>>>>>>> Stashed changes

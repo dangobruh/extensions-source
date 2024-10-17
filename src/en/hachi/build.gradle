@@ -1,6 +1,11 @@
 ext {
+<<<<<<<< Updated upstream:src/en/hachi/build.gradle
     extName = 'Hachi'
     extClass = '.Hachi'
+========
+    extName = 'Atsumaru'
+    extClass = '.Atsumaru'
+>>>>>>>> Stashed changes:src/en/atsumaru/build.gradle
     extVersionCode = 1
     isNsfw = true
 }

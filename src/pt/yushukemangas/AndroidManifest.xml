@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application>
         <activity
+<<<<<<<< Updated upstream:src/pt/yushukemangas/AndroidManifest.xml
             android:name=".pt.yushukemangas.YushukeMangasUrlActivity"
+========
+            android:name=".zh.komiic.UrlActivity"
+>>>>>>>> Stashed changes:src/zh/komiic/AndroidManifest.xml
             android:excludeFromRecents="true"
             android:exported="true"
             android:theme="@android:style/Theme.NoDisplay">
@@ -13,8 +18,13 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
+<<<<<<<< Updated upstream:src/pt/yushukemangas/AndroidManifest.xml
                     android:host="yushukemangas.com"
                     android:pathPattern="/manga"
+========
+                    android:host="komiic.com"
+                    android:pathPattern="/comic/..*"
+>>>>>>>> Stashed changes:src/zh/komiic/AndroidManifest.xml
                     android:scheme="https" />
             </intent-filter>
         </activity>
